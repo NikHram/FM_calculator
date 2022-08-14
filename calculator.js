@@ -212,7 +212,7 @@ class Calculator{
                                 output.value = operatingNumber - +output.value + "";
                                 break;
                             case "plus":
-                                output.value = operatingNumber - +output.value + "";
+                                output.value = operatingNumber + +output.value + "";
                                 break;
                             default:
                                 output.value = +output.value * 2 + "";
